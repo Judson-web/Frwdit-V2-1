@@ -48,12 +48,16 @@ API_ID - Your APP ID (Obtain it from my.telegram.org)
 API_HASH - Your API Hash (Obtain it from my.telegram.org)
 OWNER_ID - Your telegram id
 CAPTION - If you want to add a caption to the forwarded file, enter it here
-SESSION - Pyrogram string Seccion - https://replit.com/@JijinR/PyroSessionString?v=1
+SESSION - Pyrogram string Seccion - Check Below
 ```
 
 ### Deploying on Heroku:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/Frwdit-V2-1)
+
+### Sesstion String
+
+[![Repl](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@JijinR/PyroSessionString?v=1)
 
 ### Credits
 
