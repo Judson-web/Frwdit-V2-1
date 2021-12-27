@@ -1,4 +1,4 @@
-# 📠 Auto Forward V2
+# Forward Pro
 A Simple Bot can copy any media to a private channel provided!
 Without Admin Permission in FROM_CHANNEL
 Only Give Permission In your Telegram Personal Channel
@@ -6,7 +6,7 @@ Only Give Permission In your Telegram Personal Channel
 ```
 Please fork this repository then give star
 Made with Python3 and Pyrogram Library
-(C) @DarkzzAngel
+(C) @Judson-web
 Copyright permission under GNU GENERAL PUBLIC LICENSE
 ```
 
@@ -31,7 +31,7 @@ API_ID - Your APP ID (Obtain it from my.telegram.org)
 API_HASH - Your API Hash (Obtain it from my.telegram.org)
 OWNER_ID - Your telegram id
 CAPTION - If you want to add a caption to the forwarded file, enter it here
-SESSION - Pyrogram string Seccion - https://replit.com/@JijinR/PyroSessionString?v=1
+SESSION - Pyrogram string Seccion - [Click Me](https://replit.com/@JijinR/PyroSessionString?v=1)
 ```
 
 ### Deploying on Heroku:
