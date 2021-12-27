@@ -15,11 +15,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/Mo_Tech_Group'),
-        InlineKeyboardButton('Update Channel ♻️', url='https://t.me/Mo_Tech_YT')
+        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/STMbOTsUPPORTgROUP'),
+        InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/storytym')
         ],[
-        InlineKeyboardButton('💡 Deploy', url='https://youtu.be/B6jQGOJDVi0'),
-        InlineKeyboardButton('String Session 🎻', url ='https://youtu.be/WUN_12-dYOM')
+        InlineKeyboardButton('Bᴏᴛ Eᴅɪᴛᴏʀ', url='https://t.me/VAMPIRE_KING_NO_1'),
+        InlineKeyboardButton('Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ Bᴏᴛ', url ='https://t.me/ForwardProV2Robot?start=start')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -34,8 +34,8 @@ async def start(client, message):
 @Client.on_message(filters.private & filters.command(['help']))
 async def help(client, message):
     buttons = [[
-        InlineKeyboardButton('SouceCode 💡', url='https://github.com/Jijinr/Frwdit-V2'),
-        InlineKeyboardButton('close 🔐', callback_data='close_btn')
+        InlineKeyboardButton('Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ Bᴏᴛ', url='https://t.me/ForwardProV2Robot?start=start'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -49,8 +49,8 @@ async def help(client, message):
 @Client.on_message(filters.private & filters.command(['about']))
 async def about(client, message):
     buttons = [[
-        InlineKeyboardButton('💡 Deploy', url='https://github.com/Jijinr/Frwdit-V2'),
-        InlineKeyboardButton('close 🔐', callback_data='close_btn')
+        InlineKeyboardButton('Bᴏᴛ Eᴅɪᴛᴏʀ', url='https://t.me/VAMPIRE_KING_NO_1'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -66,9 +66,9 @@ async def about(client, message):
 @Client.on_message(filters.private & filters.command(['restart']))
 async def restart(client, message):
     msg = await message.reply_text(
-        text="<i>Trying to restarting.....</i>"
+        text="<i>Tʀʏɪɴɢ ᴛᴏ ʀᴇsᴛᴀʀᴛɪɴɢ ᴘʟᴢ ᴡᴀɪᴛ.....</i>"
     )
     await asyncio.sleep(5)
-    await msg.edit("<i>Server restarted successfully ✅</i>")
+    await msg.edit("<i>Sᴇʀᴠᴇʀ ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ</i>")
     os.execl(sys.executable, sys.executable, *sys.argv)
     
