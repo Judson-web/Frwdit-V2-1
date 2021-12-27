@@ -20,7 +20,7 @@ class User(Client):
     async def start(self):
         await super().start()
         usr_bot_me = await self.get_me()
-        print(f"Userbot Account {usr_bot_me.first_name} started")
+        print(f"Your Account {usr_bot_me.first_name} Has Been started")
         return (self, usr_bot_me.id)
 
     async def stop(self, *args):
