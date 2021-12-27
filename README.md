@@ -31,19 +31,14 @@ API_ID - Your APP ID (Obtain it from my.telegram.org)
 API_HASH - Your API Hash (Obtain it from my.telegram.org)
 OWNER_ID - Your telegram id
 CAPTION - If you want to add a caption to the forwarded file, enter it here
-SESSION - Pyrogram string Seccion - [Click Me](https://replit.com/@JijinR/PyroSessionString?v=1)
+SESSION - Pyrogram string Seccion - https://replit.com/@JijinR/PyroSessionString?v=1
 ```
 
 ### Deploying on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://youtu.be/B6jQGOJDVi0)
-
-### Deploying on Railway:
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://youtu.be/B6jQGOJDVi0)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/Frwdit-V2-1)
 
 ### Legendary Way:
-#### On Linux Or VPS:
 
 - Add The Bot to Your To channel as admin
 - Join User in From channel (No need Admin Permission)
@@ -59,4 +54,3 @@ python3 main.py
 ### Credits
 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* `Special Thanks Dump Group Members`🤣
