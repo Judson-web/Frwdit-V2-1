@@ -1,0 +1,52 @@
+{
+    "name": "Frwdit-V2-1",
+    "logo": "https://telegra.ph//file/c941775f49aa6a9cc77c0.jpg",
+    "description": "A Simple Bot can copy any media to a private channel provided! Without Admin Permission in FROM_CHANNEL Only Give Permission In your Telegram Personal Channel",
+    "keywords": [
+        "telegram",
+        "best",
+        "file",
+        "forward",
+        "bot"
+    ],
+    "repository": "https://github.com/Judson-web/Frwdit-V2-1",
+    "website": "https://github.com/Judson-web",
+    "success_url": "http://t.me/ForwardProV2Robot",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather",
+            "required": "True"
+        },
+        "OWNER_ID": {
+            "description": "Enter Your Telegram id",
+            "required": "True"
+        },
+        "CAPTION": {
+            "description": "If you want to add a caption to the forwarded file, enter it here",
+            "required": "False"
+        },
+        "FILTER_TYPE": {
+            "description": "Type Of filters (document , audio , photo , video , animation)",
+            "required": "False"
+        },
+        "SESSION": {
+            "description": "Pyrogram string Seccion - https://replit.com/@JijinR/PyroSessionString?v=1",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
