@@ -19,7 +19,7 @@ async def start(client, message):
         InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/storytym')
         ],[
         InlineKeyboardButton('Bᴏᴛ Eᴅɪᴛᴏʀ', url='https://t.me/VAMPIRE_KING_NO_1'),
-        InlineKeyboardButton('Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ Bᴏᴛ', url ='https://t.me/ForwardProV2Robot?start=start')
+        InlineKeyboardButton('Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ Bᴏᴛ', url ='https://heroku.com/deploy?template=https://github.com/Judson-web/Frwdit-V2-1')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -34,7 +34,7 @@ async def start(client, message):
 @Client.on_message(filters.private & filters.command(['help']))
 async def help(client, message):
     buttons = [[
-        InlineKeyboardButton('Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ Bᴏᴛ', url='https://t.me/ForwardProV2Robot?start=start'),
+        InlineKeyboardButton('Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ Bᴏᴛ', url='https://heroku.com/deploy?template=https://github.com/Judson-web/Frwdit-V2-1'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
