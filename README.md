@@ -55,7 +55,7 @@ SESSION - Pyrogram string Seccion - Check Below
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/Frwdit-V2-1)
 
-### Sesstion String
+### Session String
 
 [![Repl](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@JijinR/PyroSessionString?v=1)
 
