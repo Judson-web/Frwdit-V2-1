@@ -32,7 +32,7 @@ class Bot(Client):
     async def start(self):
         await super().start()
         usr_bot_me = await self.get_me()
-        print(f"{usr_bot_me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on @{usr_bot_me.username}.")
+        print(f"Bot Started Successfully")
      
         self.bot_info = usr_bot_me
         self.set_parse_mode("html")
@@ -40,6 +40,6 @@ class Bot(Client):
 
     async def stop(self, *args):
         usr_bot_me = await self.get_me()
-        msg = f"@{usr_bot_me.username} stopped. Bye."
+        msg = f"Bot stopped. Bye."
         await super().stop()
         print(msg)
