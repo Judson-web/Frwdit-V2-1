@@ -22,10 +22,10 @@ async def pub_(bot, message):
     await message.message.delete()
     from plugins.public import FROM, TO, SKIP, LIMIT
     if lock.locked():
-        await message.message.reply_text('__Previous process running 🥺..__', parse_mode="md")
+        await message.message.reply_text('__Pʀᴇᴠɪᴏᴜs ᴘʀᴏᴄᴇss ʀᴜɴɴɪɴɢ 🥺..__', parse_mode="md")
     else:
         m = await message.message.reply_text(
-            text="<i>Processing...⏳</i>"
+            text="<i>Pʀᴏᴄᴇssɪɴɢ...⏳</i>"
         )
         total_files=0
         async with lock:
@@ -70,11 +70,11 @@ async def pub_(bot, message):
                     pling += 1
                     if pling == 10: 
                         buttons = [[
-                            InlineKeyboardButton('Cancel🚫', 'terminate_frwd')
+                            InlineKeyboardButton('Cᴀɴᴄᴇʟ', 'terminate_frwd')
                         ]]
                         reply_markup = InlineKeyboardMarkup(buttons)
                         await m.edit_text(
-                            text=f'<b><u>FORWARD STATUS</b></u>\n\n<b>Succefully forwarded file count :</b> <code>{total_files} files</code>',
+                            text=f'<b><u>Fᴏʀᴡᴀʀᴅ Sᴛᴀᴛᴜs</b></u>\n\n<b>Sᴜᴄᴄᴇғᴜʟʟʏ ғᴏʀᴡᴀʀᴅᴇᴅ ғɪʟᴇ ᴄᴏᴜɴᴛ :</b> <code>{total_files} ғɪʟᴇs</code>',
                             reply_markup=reply_markup, 
                             parse_mode="html"
                         )
@@ -84,13 +84,13 @@ async def pub_(bot, message):
                 await m.edit_text(f'Error: {e}')
             else:
                 buttons = [[
-                    InlineKeyboardButton('📜 Support Group', url='https://t.me/DxHelpDesk')
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/STMbOTsUPPORTgROUP')
                     ],[
-                    InlineKeyboardButton('📡 Update Channel', url='https://t.me/DX_Botz')
+                    InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/storytym')
                 ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
                 await m.edit_text(
-                    text=f"<u><i>Successfully Forwarded</i></u>\n\n<b>Total Forwarded Files:-</b> <code>{total_files}</code> <b>Files</b>\n<b>Thanks For Using Me❤️</b>",
+                    text=f"<u><i>Sᴜᴄᴄᴇssғᴜʟʟʏ Fᴏʀᴡᴀʀᴅᴇᴅ</i></u>\n\n<b>Tᴏᴛᴀʟ Fᴏʀᴡᴀʀᴅᴇᴅ Fɪʟᴇs:-</b> <code>{total_files}</code> <b>Fɪʟᴇs</b>\n<b>Tʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ❤️</b>",
                     reply_markup=reply_markup,
                     parse_mode="html")
       
