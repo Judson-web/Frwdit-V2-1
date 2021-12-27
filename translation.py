@@ -3,7 +3,7 @@ from config import Config
 
 class Translation(object):
   START_TXT = """<b>Hᴀɪ {}!!</b>
-<i>I'ᴍ Sɪᴍᴘʟᴇ Aᴜᴛᴏ ғɪʟᴇ Fᴏʀᴡᴀʀᴅ Bᴏᴛ V2
+<i>I'ᴍ Fᴏʀᴡᴀʀᴅ Pʀᴏ Bᴏᴛ,
 Tʜɪs Bᴏᴛ ғᴏʀᴡᴀʀᴅ ᴀʟʟ ғɪʟᴇs ᴛᴏ Oɴᴇ Pᴜʙʟɪᴄ ᴄʜᴀɴɴᴇʟ ᴛᴏ Yᴏᴜʀ Pᴇʀsᴏɴᴀʟ ᴄʜᴀɴɴᴇʟ
 Mᴏʀᴇ ᴅᴇᴛᴀɪʟs /help</i>"""
   CAPTION = "`{}`\n\n" + str(Config.CAPTION)
