@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://i.ibb.co/NxLgyq9/photo-2021-10-30-14-25-14-removebg-preview.png" alt="calculator Logo">
+</p>
 <h1 align= center><b>⭐️ Forward Pro ⭐️</b></h1>
 <h3 align = center> A Simple Bot can copy any media to a private channel provided!
 Without Admin Permission in FROM_CHANNEL
