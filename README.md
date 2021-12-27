@@ -41,23 +41,25 @@ Copyright permission under GNU GENERAL PUBLIC LICENSE
 /about - about me
 /run - forward starting
 /restart - restart server
-
-#Variables
-BOT_TOKEN - Your Bot Token (Obtain it from @botfather)
-API_ID - Your APP ID (Obtain it from my.telegram.org)
-API_HASH - Your API Hash (Obtain it from my.telegram.org)
-OWNER_ID - Your telegram id
-CAPTION - If you want to add a caption to the forwarded file, enter it here
-SESSION - Pyrogram string Seccion - Check Below
 ```
+
+### Variables 💥
+
+- `BOT_TOKEN:` Get the bot token from [Bot Father <img src="https://telegra.ph/file/8d80c13110506bf1cb58e.jpg" width="30" height="30">](https://telegram.dog/BotFather).
+
+- `API_ID:` Get this value from [my.telegram.org](https://my.telegram.org).
+
+- `API_HASH:` Get this value from [my.telegram.org](https://my.telegram.org).
+
+- `OWNER_ID:` Your Telegram user id
+
+- `CAPTION:` If you want to add a caption to the forwarded file, enter it here
+
+- `SESSION:` Pyrogram string Seccion - [![Repl](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@JijinR/PyroSessionString?v=1)
 
 ### Deploying on Heroku:
 
 <p><a href="https://heroku.com/deploy?template=https://github.com/Judson-web/Frwdit-V2-1"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
-
-### Session String
-
-[![Repl](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@JijinR/PyroSessionString?v=1)
 
 ### Credits
 
